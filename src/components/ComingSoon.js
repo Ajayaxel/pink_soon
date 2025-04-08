@@ -64,8 +64,8 @@ const ComingSoon = () => {
 
             {/* Shop Now Box */}
             <div className="bg-white shadow-lg rounded-xl px-3 sm:px-4 py-2 w-[160px] sm:w-[200px] absolute bottom-[-20px] left-[-40px] sm:left-[-80px] z-20 flex flex-col items-center">
-              <img src='https://img.freepik.com/premium-vector/happy-couple-shopping-with-discounts-sales_123891-155782.jpg' alt="User" className="w-full h-[50px] sm:h-[60px]" />
-              <button className="bg-yellow-300 text-black font-medium px-4 sm:px-6 py-1 sm:py-2 rounded-md mt-3">Coming Soon</button>
+              <img src='https://img.freepik.com/premium-vector/happy-couple-shopping-with-discounts-sales_123891-155782.jpg' alt="User" className="w-full h-[50px] sm:h-[60px] object-contain" />
+              <button className="bg-yellow-300 text-black font-medium text-sm px-4 sm:px-6 py-1 sm:py-2 rounded-md mt-3">Coming Soon</button>
               <p className="text-[9px] sm:text-[10px] mt-2">Lorem ipsum dolor sit amet</p>
             </div>
 
